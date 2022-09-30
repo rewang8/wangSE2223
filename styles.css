@@ -1,0 +1,133 @@
+*{
+    font-family: "Playfair Display";
+    color: black;
+}
+p{
+    font-size: 19px !important;
+}
+
+/* ------------------------------------- Class CSS ------------------------------------------*/
+.img-fluid{
+    position: relative;
+}
+
+.about-author{
+    color: rgb(82, 81, 81)
+}
+
+.author{
+    background-color: #c8deea
+}
+
+.procedures{
+    background-color: #c8deea
+}
+
+.footer{
+    background-color: #0b9ce0
+}
+
+.icon-white{
+    color: white
+}
+.overview{
+    background-color: #d5ebf6
+}
+
+.showcase{
+    background-color: #8cd9fc;
+    font-family: Montserrat !important;
+    
+}
+
+.nb-bg-color{
+    background-color: #0b9ce0
+}
+
+.author{
+    padding-bottom: 40px;
+}
+
+/* ------------------------------------- ID CSS ------------------------------------------*/
+a#nbMenuItem{
+    font-size: 32px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+
+#nbMenuItem{
+    right: 50px;
+}
+
+h1#ovPadLeft{
+    padding-left: 20px;
+}
+
+p#ovPadLeft{
+    padding-left: 20px;
+}
+
+h1#ovPadLeft{
+    padding-left: 20px;
+}
+
+p#ovPadLeft{
+    padding-left: 20px;
+}
+
+#rat-img{
+    top: 5px;
+}
+
+#back-img{
+    top: 10px;
+}
+
+#rep-img{
+    top: 8px;
+}
+
+#oPadLeft{
+    right: 30px !important; 
+}
+
+#title{
+    font-size: 45px;
+    padding-right: 30px;
+}
+#title{
+    font-size: 45px;
+    top: 30px;
+}
+
+#title-img{
+    left: 20px !important; 
+}
+
+/* ------------------------------------- Underline Animation CSS ------------------------------------------*/
+/* -----------------Underline Animation CSS -----------------*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /*color: #0087ca;*/
+  }
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #eae6e6;
+    /*transform-origin: bottom right;*/
+    transition: transform 0.35s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /*transform-origin: bottom left;*/
+}
