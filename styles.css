@@ -124,7 +124,7 @@ p#ovPadLeft{
     left: 20px !important; 
 }
 
-#navy{
+#nbMenuItem{
     color:#8dc1cf;
     font-size: 32px;
     padding-right: 20px;
@@ -132,7 +132,7 @@ p#ovPadLeft{
     right: 50px;
     
 }
-#navy{
+#nbMenuItem{
     font-family: 'Montserrat' !important;
     
 }
@@ -166,4 +166,3 @@ p#ovPadLeft{
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
 }
-.
